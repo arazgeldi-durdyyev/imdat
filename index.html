@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shady Rhymes</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@0;1&family=Inter:wght@300&family=Philosopher:ital@0;1&family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="global-nav">
+         <nav class="global-nav__top">
+             <a href="#" class="global-nav__branding">
+                 <img src="./images/logo.png" alt="Logo" class="global-nav__logo"/>
+             </a>
+
+             <ul class="global-nav__menu">
+                 <li class="global-nav__item dropdown">
+                     <a href="#" class="global-nav__primary-link">
+                         <span class="global-nav__primary-link-text">furniture</span>
+                         <svg width='13' height='9' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M1 1L4.5 4L8 1' stroke='white'/>
+                        </svg>
+                     </a>
+                     <ul class="primary-link__dropdown">
+                        <li class="dropdown__item"><a href="#main-left-id" class="dropdown__item-link">For more</a></li>
+                        <li class="dropdown__item"><a href="#feedback-section-id" class="dropdown__item-link">About services</a></li>
+                        <li class="dropdown__item"><a href="#extra-section-right-id" class="dropdown__item-link">what we do</a></li>
+                     </ul>
+                 </li>
+                 <li class="global-nav__item">
+                     <a href="#products-section-id" class="global-nav__primary-link">
+                         <span class="global-nav__primary-link-text">shop</span>
+                     </a>
+                 </li>
+                 <li class="global-nav__item">
+                     <a href="#main-section-id" class="global-nav__primary-link">
+                         <span class="global-nav__primary-link-text about-link-text">about us</span>
+                     </a>
+                 </li>
+                 <li class="global-nav__item">
+                     <a href="#footer-section-id" class="global-nav__primary-link">
+                         <span class="global-nav__primary-link-text">contact</span>
+                     </a>
+                 </li>
+             </ul>
+             <div class="global-nav__div">
+                <a href="#" class="global-nav__bag-fill">
+                    <img src="./images/Bag_fill.png" alt="Bin" class="global-nav__bag-fill-icon"/>
+                </a>
+
+                <div id="menu_btn">
+                    <svg width="29" height="24" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 8.5C0.5 8.22386 0.723858 8 1 8H11C11.2761 8 11.5 8.22386 11.5 8.5C11.5 8.77614 11.2761 9 11 9H1C0.723858 9 0.5 8.77614 0.5 8.5Z" fill="#fff"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 4.5C0.5 4.22386 0.723858 4 1 4H11C11.2761 4 11.5 4.22386 11.5 4.5C11.5 4.77614 11.2761 5 11 5H1C0.723858 5 0.5 4.77614 0.5 4.5Z" fill="#fff"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0.5C0.5 0.223858 0.723858 0 1 0H11C11.2761 0 11.5 0.223858 11.5 0.5C11.5 0.776142 11.2761 1 11 1H1C0.723858 1 0.5 0.776142 0.5 0.5Z" fill="#fff"/>
+                    </svg>
+                    <svg style="display: none" width="29" height="24" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L4 3.29289L6.64645 0.646447C6.84171 0.451184 7.15829 0.451184 7.35355 0.646447C7.54882 0.841709 7.54882 1.15829 7.35355 1.35355L4.70711 4L7.35355 6.64645C7.54882 6.84171 7.54882 7.15829 7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L4 4.70711L1.35355 7.35355C1.15829 7.54882 0.841709 7.54882 0.646447 7.35355C0.451184 7.15829 0.451184 6.84171 0.646447 6.64645L3.29289 4L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z" fill="#16a085"/>
+                    </svg>
+                </div>                 
+             </div>
+
+         </nav>
+
+         <h1 class="global-nav__heading">
+             make your interior more minimalistic & modern
+         </h1>
+
+         <p class="global-nav__paragraph">
+             Bringing interiors to life, understanding the person or people
+             living in a home is for greater need in design.
+         </p>
+
+         <div class="search-global">
+             <div class="search-global-container">
+                <input type="search" name="search" id="search-input" class="search-global__input" placeholder="search furniture"/>
+                <button class="search-global__icon"><img src="./images/button search.png" alt="" width="39px" height="39px"></button>
+             </div>
+         </div>
+
+         <div class="slider-pagination">
+            <div class="slider-pagination__circle"></div>
+            <div class="slider-pagination__circle"></div>
+            <div class="slider-pagination__circle"></div>
+         </div>
+     </header>  
+     <main class="main-section" id="main-section-id">
+         <h1 class="main-section__heading">why choosing us</h1>
+         <div class="content1 content--active">
+             <img src="./images/icon.png" alt="" class="content-icon">
+             <h3 class="content-heading">professionalism</h3>
+             <p class="content-paragraph">We deliver the final work with great professional way.</p>
+
+             <a href="#" class="content__link">more info</a>
+         </div>
+         <div class="content2 content--active">
+             <img src="./images/icon1.png" alt="" class="content-icon">
+             <h3 class="content-heading">smooth workflow</h3>
+             <p class="content-paragraph">We provide the easiest and smoothest workflow of interior design.</p>
+             <a href="#" class="content__link">more info</a>
+         </div>
+         <div class="content3 content--active">
+             <img src="./images/icon2.png" alt="" class="content-icon">
+             <h3 class="content-heading">trusted platform</h3>
+             <p class="content-paragraph">People trust us since we opened the company.</p>
+             <a href="#" class="content__link">more info</a>
+         </div>
+         <div class="content4 content--active">
+             <img src="./images/icon3.png" alt="" class="content-icon">
+             <h3 class="content-heading">qualified employee</h3>
+             <p class="content-paragraph">Our employees are the best of the field from the city.</p>
+             <a href="#" class="content__link">more info</a>
+         </div>
+
+         <div class="main-left" id="main-left-id">
+             <h1 class="main-left__heading">Visualize your ideas with us</h1>
+             <p class="main-left__paragraph">We are ready to help you build and also realize the room design that
+                 you dream of, with our exports and also the best category recommendations from us 
+             </p>
+             <div class="main-left-collapse">
+                 Modern <span class="span-collapse">+</span>
+                 <p class="main-left-collapse__paragraph">
+                     Modern design is a term in the design world that refers to a house with a clean design, simple color choices,
+                     the use of materials including metal, glass, and steel, and is usually accomapied by clean lines.  
+                 </p>
+             </div>
+             <div class="main-left-collapse">
+                Contemporary <span class="span-collapse">+</span>
+                <p class="main-left-collapse__paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et deserunt mollitia nemo repellendus 
+                    perspiciatis provident, optio consequuntur possimus veniam, natus, quod saepe sint recusandae 
+                    tempore magni! Recusandae alias, commodi ducimus numquam dolores reiciendis.
+                </p>
+             </div>
+             <div class="main-left-collapse">
+                Minimals <span class="span-collapse">+</span>
+                <p class="main-left-collapse__paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi quidem eaque dolor 
+                    nesciunt modi error id esse dolore optio, voluptatibus cum voluptas. 
+                </p>
+             </div>
+             <div class="main-left-collapse">
+                Industrial <span class="span-collapse">+</span>
+                <p class="main-left-collapse__paragraph">
+                    Modern design is a term in the design world that refers to a house with a clean design, simple color choices,
+                    the use of materials including metal, glass, and steel, and is usually accomapied by clean lines.  
+                </p>
+             </div>
+             <div class="link-container">
+                 <a href="#" class="main-left__link">See more category</a>
+             </div>
+         </div>
+         <div class="main-right">
+             <img src="./images/Mask Group.png" alt="" class="main-right__image">
+         </div>
+     </main>
+
+     <div class="products-section" id="products-section-id">
+         <h1 class="products-section__heading">featured product</h1>
+         <!--script provides the content here-->
+     </div>
+
+     <div class="feedback-section" id="feedback-section-id">
+         <h1 class="feedback-section__heading">What they say about our services</h1>
+         <!--script provides the content here-->
+     </div>
+     <div class="extra-section">
+         <div class="extra-section-left">
+             <img src="./images/image 11.png" alt="image 11" class="extra-section-left__image">
+         </div>
+         <div class="extra-section-right" id="extra-section-right-id">
+             <h1 class="extra-section-right__heading">Make your room feel homey</h1>
+             <p class="extra-section-right__paragraph">
+                 We help people not only to make the room at home better, but we help people to feel 
+                 a more homey and comfortable room, you don't have to worry about the result because of
+                 these interiors are made by people who professionals in their fields with an elegant and
+                 luxurious style and with premium quality materials
+             </p>
+             <br/>
+             <p class="extra-section-right__paragraph">Contact us if you are interested in working with us</p>
+
+             <div class="email-container">
+                 <input type="email" name="email-address" id="" class="extra-section-right__email" placeholder="Insert your email address"/>
+                 <button class="extra-section-right__button">
+                     <img src="./images/button search1.png" alt="Button image" class="extra-section-right__button-image">
+                 </button>
+             </div>
+         </div>
+     </div>
+     <footer class="footer-section" id="footer-section-id">
+         <img src="./images/logo.png" alt="" class="footer-section__logo">
+         <div class="footer-section__features">
+             <h3 class="footer-section__features-heading">features</h3>
+             <a href="#" class="footer-section__link">our features</a>
+             <a href="#" class="footer-section__link">pricing</a>
+             <a href="#" class="footer-section__link">affiliate program</a>
+             <a href="#" class="footer-section__link">press kit</a>
+         </div>
+         <div class="footer-section__support">
+            <h3 class="footer-section__features-heading">support</h3>
+            <a href="#" class="footer-section__link">account</a>
+            <a href="#" class="footer-section__link">help</a>
+            <a href="#" class="footer-section__link">contact us</a>
+         </div>
+         <div class="footer-section__legal">
+            <h3 class="footer-section__features-heading">legal</h3>
+            <a href="#" class="footer-section__link">privacy policy</a>
+            <a href="#" class="footer-section__link">terms of use</a>
+         </div>
+         <div class="footer-section__social">
+            <h3 class="footer-section__features-heading">social media</h3>
+            <a href="https://wwww.twitter.com" class="footer-section__link">twitter</a>
+            <a href="#" class="footer-section__link">product hunt</a>
+            <a href="#" class="footer-section__link">instagram</a>
+            <a href="#" class="footer-section__link">github</a>
+         </div>
+         <p class="footer-section__copyright">Copyright 2021 &copy;shady rhymes</p>
+     </footer>
+     <!--js file for behavior-->
+     <script src="./js/script.js"></script>
+</body>
+</html>
